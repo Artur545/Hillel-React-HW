@@ -1,8 +1,8 @@
 import React from "react";
 import MenuItem from "../MenuItem/MenuItem";
 
-const MenuList = ({ pizza }) => {
-  return pizza.map((prop) => (
+const MenuList = ({ menu }) => {
+  return menu.map((prop) => (
     <MenuItem
       key={prop.id}
       name={prop.name}

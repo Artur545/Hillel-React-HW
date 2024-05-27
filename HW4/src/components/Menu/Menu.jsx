@@ -1,7 +1,6 @@
-import MenuList from "../MenuList/MenuList";
-import pizzas from "../../../pizza-list";
+import PizzaList from "../PizzaList/PizzaList";
 
 const Menu = () => {
-  return <MenuList pizza={pizzas} />;
+  return <PizzaList />;
 };
 export default Menu;
